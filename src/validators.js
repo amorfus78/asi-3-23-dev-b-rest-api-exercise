@@ -36,3 +36,7 @@ export const textValidator = yup.string()
 export const dateValidator = yup.date()
 
 export const statusValidator = yup.string().oneOf(["published", "draft"])
+
+export const fieldsTypeValidator = yup
+  .string()
+  .oneOf(["single line text", "multi line text", "radio", "select", "checkbox"])
