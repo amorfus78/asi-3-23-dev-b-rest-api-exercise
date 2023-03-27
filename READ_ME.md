@@ -1,3 +1,7 @@
+# REPO URL
+
+https://github.com/amorfus78/asi-3-23-dev-b-rest-api-exercise
+
 # Knex commands
 
 - run migration : `npx knex migrate:latest`
@@ -57,7 +61,7 @@ It is a very basic CRM: there are pages, with different types of content, users 
 ### Field
 
 - Type (single or multi line text, radio, select, checkbox)
-- Options (if necessary
+- Options (if necessary)
 - Label
 - Default value
 
